@@ -5,13 +5,14 @@
         <!--<VerticalLayout width="570" height="247" bkimage="file='bgtop1_2.png'">-->
         <VerticalLayout width="570" height="300" bkimage="file='bgtop1_2.png'">
             <!--<VerticalLayout bkimage="file='bgtop1_1.png'"></VerticalLayout>-->
-            <Button name="btnInstall" padding="165,215,0,0" font="2" normalimage="file='install.png' source='0,0,240,38'"
+            <!--<Button name="btnInstall" padding="165,215,0,0" font="2" normalimage="file='install.png' source='0,0,240,38'"
                     hotimage="file='install.png' source='0,38,240,76'"
-                    pushedimage="file='install.png' source='0,76,240,114'" height="38" width="240"/>
+                    pushedimage="file='install.png' source='0,76,240,114'" height="38" width="240"/>-->
+            <Button name="btnInstall" padding="205,215,0,0" font="1" text="极速安装"  bkcolor="0xffffffff" textcolor="0xFF000000"  borderround="4,4" height="38" width="160" />
             <!--<Label  visible="false" padding="165,12,0,0" text=""/>-->
-            <Button align="center" name="btnAgreement" text="安装即代表您接受 《用户许可协议》"
+            <Button align="center" name="btnAgreement" text="安装即代表您接受 用户许可协议"
                     padding="0,10,0,0"
-                    textpadding="0,3,0,0" textcolor="0xFF2786e4"/>
+                    textpadding="0,3,0,0"/>
         </VerticalLayout>
         <!--<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'">-->
         <VerticalLayout bkimage="file='bgbottom1_1.png' corner='10,10,10,10'">
@@ -19,13 +20,15 @@
                 <HorizontalLayout height="26">
                     <Label  visible="true" text="安装位置："/>
                     <RichEdit name="editDir" text="" textcolor="0xFF000000" inset="10,7,2,2" bkcolor="#ffffffff"
-                              autohscroll="false" bordervisible="true" bordersize="1" bordercolor="0xFFD1D1D1"
+                              autohscroll="false" bordervisible="true" bordersize="1" bordercolor="0xffffd800"
                               focusbordercolor="0xffffd800" wantreturn="false" wantctrlreturn="false" multiline="false"
-                              width="250"/>
-                    <Control width="6"/>
-                    <Button name="btnSelectDir" normalimage="file='modify.png' source='0,0,68,26'"
+                              width="300"/>
+                    <!--<Control width="6"/>-->
+                    <!--<Button name="btnSelectDir" normalimage="file='modify.png' source='0,0,68,26'"
                             pushedimage="file='modify.png' source='0,26,68,52'"
-                            hotimage="file='modify.png' source='0,52,68,78'" width="68" height="26"/>
+                            hotimage="file='modify.png' source='0,52,68,78'" width="68" height="26"/>-->
+                    <Button name="btnSelectDir" font="2" text=">"  bkcolor="0xffffd800"
+                            textcolor="0xFF000000"  borderround="0,0" width="26" height="26"/>
                 </HorizontalLayout>
                 <Control height="10"/>
                 <HorizontalLayout height="23"  visible="false">

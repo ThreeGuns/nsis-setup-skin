@@ -2,11 +2,11 @@
 <Windows>
 <!-- 完成 -->
  <VerticalLayout >
-    <VerticalLayout width="570" height="247" bkimage="file='uninstall_bg1.png'">
-	<VerticalLayout bkimage="file='bgtop1_1.png'"></VerticalLayout>
+    <VerticalLayout width="570" height="345" bkimage="file='uninstall_bg1.png'">
+	<VerticalLayout bkimage="file='finish.png'"></VerticalLayout>
 	</VerticalLayout>
-	<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >	
-	<Button name="btnRun" padding="210,50,0,0" text="开始使用" font="2" bkcolor="0xFF3BD02C" textcolor="0xFFFFFFFF"  borderround="4,4" height="50" width="160" />
+	<VerticalLayout bkimage="file='bgbottom1_1.png' corner='10,0,10,10'" >
+	<Button name="btnRun" padding="210,20,0,0" text="进入版权家（3S）" font="1" bkcolor="0xffffd800" textcolor="0xFF000000"  borderround="4,4" height="30" width="160" />
 	</VerticalLayout>
  </VerticalLayout>
 </Windows>
