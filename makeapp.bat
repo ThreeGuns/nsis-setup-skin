@@ -1,6 +1,8 @@
 del ".\SetupScripts\app.7z"
 
-@set destPathName="..\bqj-client-edition\release\win-unpacked"
+
+@rem @set destPathName="..\bqj-client-edition\release\win-unpacked"
+@set destPathName=".\FilesToInstall"
 
 rem 生成app.7z
 7z.exe a ".\SetupScripts\app.7z" ".\%destPathName%\*.*"
