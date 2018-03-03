@@ -11,17 +11,19 @@
   <VerticalLayout>  	
 	  <TabLayout name="wizardTab"  >
 	  	<Include source="configpage.xml" />
-	    <Include source="installingpage.xml" />		
+	    <Include source="installingpage.xml" />
 	  	<Include source="finishpage.xml" />
 	  	<Include source="uninstallpage.xml" />
 		<Include source="uninstallingpage.xml" />		
 	  	<Include source="uninstallfinishpage.xml" />
     </TabLayout>
 	<!--<HorizontalLayout float="true" pos="0,8,562,34" >-->
-	<HorizontalLayout float="true" pos="0,0,570,26" >
+	<HorizontalLayout float="true" pos="0,2,570,26" >
       	<Container />
-        <Button name="btnFinishedMin" width="32" height="26" normalimage="file='min1.png' source='0,0,32,26'" hotimage="file='min1.png' source='0,26,32,52'" pushedimage="file='min1.png' source='0,52,32,78'" />
-        <Button name="btnClose" width="29" height="26" normalimage="file='close1.png' source='0,0,29,26'" hotimage="file='close1.png' source='0,26,29,52'" pushedimage="file='close1.png' source='0,52,29,78'" />
+        <!--<Button name="btnFinishedMin" width="32" height="26" normalimage="file='min1.png' source='0,0,32,26'" hotimage="file='min1.png' source='0,26,32,52'" pushedimage="file='min1.png' source='0,52,32,78'" />
+        <Button name="btnClose" width="29" height="26" normalimage="file='close1.png' source='0,0,29,26'" hotimage="file='close1.png' source='0,26,29,52'" pushedimage="file='close1.png' source='0,52,29,78'" />-->
+        <Button name="btnFinishedMin" width="32" height="26" normalimage="file='min2.png'"/>
+        <Button name="btnClose" width="29" height="26" normalimage="file='close2.png'" padding="0,2,0,0"/>
      </HorizontalLayout>
   </VerticalLayout>
 </Window>

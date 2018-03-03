@@ -5,7 +5,7 @@
                     pos="10,35,560,405">
 
         <Container height="10"/>
-        <Label name="licensename" text="《牛牛截图示例用户许可协议》" font="5" align="center" textcolor="0xFF000000"/>
+        <Label name="licensename" text="《用户许可协议》" font="5" align="center" textcolor="0xFF000000" bordersize="2"/>
         <Button name="btnAgree" text="确定" width="40" padding="460,-20,0,0" bkcolor="0xffffd800"/>
         <Container height="4"/>
         <HorizontalLayout height="34" visible="false">
