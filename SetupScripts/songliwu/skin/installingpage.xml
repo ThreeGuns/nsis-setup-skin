@@ -3,11 +3,15 @@
 <!-- 进度 -->
   <VerticalLayout >
     <VerticalLayout width="570" height="345">
-	<ImageShow images="bg1_1.png bg1_2.png bg1_3.png bg1_4.png" imagecount="4" loop="true" width="570" height="345" />
+	<!--<ImageShow images="bg1_1.png bg1_2.png bg1_3.png bg1_4.png" imagecount="4" loop="true" width="570" height="345" />-->
+	<ImageShow images="bg1_5.png" imagecount="1" loop="true" width="570" height="345" />
 	</VerticalLayout>
-	<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >   
-	<Control height="30" />
-	<Slider name="slrProgress" padding="25,0,0,0" height="3" width="520" mouse="false" foreimage="process_top.png" bkimage="process_bottom.png" thumbsize="0,0" bkcolor="#FFD8D8D8"  />
+	<VerticalLayout bkimage="file='bgbottom1_1.png' corner='10,0,10,10'" >
+	<Control height="20" />
+		<Label  visible="true" align="center" text="安装中"/>
+		<Slider name="slrProgress" padding="100,0,100,0" height="10" width="420" mouse="false"
+			   foreimage="process_top1_1.png" bkimage="process_bottom.png" thumbsize="0,0" bkcolor="#FFD8D8D8"  />
+		<Control width="6"/>
 	</VerticalLayout>	
 	</VerticalLayout >
 </Windows>
