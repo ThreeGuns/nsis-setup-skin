@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Windows>
    <VerticalLayout >
-    <VerticalLayout width="570" height="264" bkimage="file='uninstall_bg1.png'">
+    <!--<VerticalLayout width="570" height="264" bkimage="file='uninstall_bg1.png'">-->
+	<VerticalLayout width="570" height="264" bkimage="file='bgtop1_2.png'">
 	</VerticalLayout>
 	<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >	
 	<HorizontalLayout padding="0,20,0,0" height="27" >
