@@ -6,20 +6,19 @@
 
         <Container height="10"/>
         <Label name="licensename" text="《用户许可协议》" font="5" align="center" textcolor="0xFF000000" bordersize="2"/>
-        <Button name="btnAgree" text="确定" width="40" padding="460,-20,0,0" bkcolor="0xffffd800"/>
+        <!--<Button name="btnAgree" text="确定" width="40" padding="460,-20,0,0" bkcolor="0xffffd800"/>-->
         <Container height="4"/>
-        <HorizontalLayout height="34" visible="false">
-            <Container/>
-            <Button align="center" name="btnAgreement" text="安装即代表您接受 用户许可协议"
-                    padding="0,10,0,0"
-                    textpadding="0,3,0,0"/>
-            <Button name="btnAgree" normalimage="file='ok.png' source='0,0,68,26'"
-                    pushedimage="file='ok.png' source='0,26,68,52'" hotimage="file='ok.png' source='0,52,68,78'"
-                    width="68" height="26"/>
-            <Container/>
-        </HorizontalLayout>
+
         <RichEdit width="540" height="295" name="editLicense" autovscroll="true" vscrollbar="true" readonly="true"
                   textcolor="0xFF000000" inset="12,12,2,12" bordersize="1"/>
+        <HorizontalLayout height="25" visible="true">
+            <Container/>
+            <!--<Button name="btnAgree" normalimage="file='ok.png' source='0,0,68,26'"
+                    pushedimage="file='ok.png' source='0,26,68,52'" hotimage="file='ok.png' source='0,52,68,78'"
+                    width="68" height="26"/>-->
+            <Button name="btnAgree" text="确定" width="40" bkcolor="0xffffd800"/>
+            <Container/>
+        </HorizontalLayout>
 
 
 
